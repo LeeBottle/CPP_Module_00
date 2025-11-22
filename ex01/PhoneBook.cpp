@@ -1,4 +1,4 @@
-#include "phonebook.hpp"
+#include "PhoneBook.hpp"
 
 PhoneBook::PhoneBook( void ){
 
@@ -118,7 +118,6 @@ void	PhoneBook::actAdd( void ) {
 void PhoneBook::actSearch( void ) const{
 
 	int count;
-	int len;
 	int i;
 
 	if (contactCount >= 8)
